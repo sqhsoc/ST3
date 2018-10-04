@@ -2,7 +2,7 @@
 
 {
 	    // use homebrew git
-    "git_path": "/usr/local/bin/git",
+    "git_path": "C:/Program Files/Git/bin/git.exe",
     // hide status bar status
     "git_status_in_status_bar": false
 

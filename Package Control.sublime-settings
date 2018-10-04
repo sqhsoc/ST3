@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Anaconda",
-		"Git",
 		"GitGutter",
 		"GitSavvy",
 		"LaTeXTools",
