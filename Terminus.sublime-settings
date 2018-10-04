@@ -1,0 +1,46 @@
+{
+	"256color": true,
+	"shell_configs":
+	[
+		{
+			"cmd":
+			[
+				"/bin/bash",
+				"-i",
+				"-l"
+			],
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Bash",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd":
+			[
+				"/usr/local/bin/zsh",
+				"-i",
+				"-l"
+			],
+			"default": true,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Zsh",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		}
+	],
+	"theme": "afterglow",
+	"unix_term": "xterm-256color"
+}
