@@ -85,13 +85,14 @@
 	"font_options":
 	[
 	],
-	"font_size": 19,
+	"font_size": 18,
 	"gutter": true,
 	"highlight_line": false,
 	"highlight_modified_tabs": false,
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Python",
 		"Vintage"
 	],
