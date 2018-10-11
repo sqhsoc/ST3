@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{2018_10_01.png}
+\end{figure}
+]]></content>
+	<tabTrigger>jnfigure</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>
+

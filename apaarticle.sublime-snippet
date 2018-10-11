@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[ 
+    \documentclass[12pt]{article}
+    \usepackage{ctable,microtype,natbib,amsmath,amssymb,fullpage,graphicx}
+    \usepackage[colorlinks,linkcolor=black,citecolor=blue,urlcolor=black]{hyperref}
+    \usepackage{setspace} 
+    \onehalfspacing 
+     
+    \title{${1:Title}} 
+    \author{${2:Author}} 
+ 
+    \begin{document} 
+      \maketitle{}
+ 
+      \begin{abstract}
+      \end{abstract}
+     
+      \section{Introduction}
+        ${3:Start typing here}
+ 
+      \bibliographystyle{apalike}
+      \bibliography{path-to-bib/filename}{}
+    \end{document} 
+]]></content> 
+  <tabTrigger>article</tabTrigger>
+  <scope>text.tex.latex</scope>
+</snippet>
