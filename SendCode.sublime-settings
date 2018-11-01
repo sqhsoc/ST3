@@ -7,7 +7,7 @@
 	},
 	"r":
 	{
-		"bracketed_paste_mode": true,
+		"bracketed_paste_mode": false,
 		"prog": "terminus"
 	},
 	"rmd":

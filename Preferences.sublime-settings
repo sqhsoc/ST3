@@ -30,10 +30,13 @@
 		"*.jar",
 		"*.zip"
 	],
-	"bold_folder_labels": false,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
@@ -85,10 +88,10 @@
 	"font_options":
 	[
 	],
-	"font_size": 19,
+	"font_size": 20,
 	"gutter": true,
-	"highlight_line": false,
-	"highlight_modified_tabs": false,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
@@ -98,13 +101,14 @@
 	],
 	"indent_guide_options":
 	[
-		"draw_normal"
+		"draw_normal",
+		"draw_active"
 	],
 	"indent_subsequent_lines": true,
 	"indent_to_bracket": false,
 	"line_numbers": true,
-	"line_padding_bottom": 0,
-	"line_padding_top": 0,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"margin": 4,
 	"match_brackets": true,
 	"match_brackets_angle": false,
@@ -132,13 +136,14 @@
 	"spell_check": true,
 	"tab_completion": true,
 	"tab_size": 4,
-	"theme": "Default.sublime-theme",
+	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"tree_animation_enabled": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false,
 	"use_simple_full_screen": false,
 	"use_tab_stops": true,
+	"wide_caret": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": "auto",
 	"wrap_width": 0
