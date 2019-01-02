@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[12 pt,twoside,a4paper]{article}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{hyperref}
+% \usepackage{bmpsize}
+\usepackage[UTF8]{ctex}
+\graphicspath { {C:/Users/Siqi/Documents/journal/picacv/} }
+\author{Siqi}
+\title{Journal}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jnsetup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>
