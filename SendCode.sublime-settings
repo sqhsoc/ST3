@@ -1,8 +1,14 @@
 {
+	"julia":
+	{
+		"bracketed_paste_mode": true,
+		"prog": "terminus"
+	},
 	"prog": "terminus",
 	"python":
 	{
 		"bracketed_paste_mode": true,
+		"paste_to_console": true,
 		"prog": "terminus"
 	},
 	"r":
@@ -16,3 +22,9 @@
 		"prog": "terminus"
 	}
 }
+
+// note: ipython 7.10.1 & must do two "true"s for python code above. Or it will not work. 
+// for R: bracket.. = false. 
+// to sum up, just compare to the default windows setting and make sure they are the same in this user setting. 
+
+
